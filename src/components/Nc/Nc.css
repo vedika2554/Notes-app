@@ -1,0 +1,33 @@
+.ncc{
+    display: flex;
+    width: 400px;
+    height: 100px;
+    background-color: #74512D;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.e{
+    position: fixed;
+    margin-left: 330px;
+    margin-top:0.5px;
+    font-size: 35px;
+}
+
+.h{
+margin-left: 40px; 
+margin-top: 10px;   
+
+}
+.pll{
+    position: fixed;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.ndi{
+    height: 25px;
+    position: fixed;
+    margin-left: 340px;
+    margin-top:65px;
+    cursor: pointer;
+}
