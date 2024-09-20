@@ -17,7 +17,7 @@ return (
     <div className="e">{emoji}</div>
 <img src={'https://cdn-icons-png.flaticon.com/128/484/484662.png'} className="ndi"alt="Delete" onClick={()=>{
     deleteNote(index)
-}}/>
+}}/>||[]
 </div>
 
 )

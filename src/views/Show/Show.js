@@ -14,12 +14,14 @@ setNi(savedNi)},[])
         <div>
         <h1 className="txc tp">Your Note 🧾</h1>
 {
-    no.map((n,index)=>{
+   no ? no.map((n,index)=>{
         const {heading,description,emoji}=n
         return (
-            <Nc index={index} heading={heading} description={description} emoji={emoji} />|| {}
+            <div>
+            <Nc index={index} heading={heading} description={description} emoji={emoji} />|| ("")
+            </div>
         )
-    })
+    }):null
 }
        <Back/>
         </div>
