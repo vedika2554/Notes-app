@@ -17,7 +17,7 @@ setNi(savedNi)},[])
     no.map((n,index)=>{
         const {heading,description,emoji}=n
         return (
-            <Nc index={index} heading={heading} description={description} emoji={emoji}/>
+            <Nc index={index} heading={heading} description={description} emoji={emoji} />|| {}
         )
     })
 }
